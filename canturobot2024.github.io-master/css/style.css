@@ -1,0 +1,462 @@
+@import 'https://fonts.googleapis.com/css?family=Rajdhani';
+body{
+	font-family: 'Rajdhani', sans-serif;
+	margin: 0 auto;
+}
+
+header{
+	display: block;
+	position: fixed;
+	background-color: #E8630A;
+	height: 100px;
+	box-sizing: border-box;
+	width: 100%;
+	z-index: 9999999999999;
+	text-align: center;
+}
+h1{
+	font-size: 32px;
+	font-weight: bold;
+}
+header h1 a{
+	text-decoration: none;
+	color: #212C40;
+}
+header div{
+	display: inline-block;
+	vertical-align: middle;
+	color: #212C40;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	box-sizing: border-box;
+
+}
+
+header div li{
+	display: inline-block;
+	font-size: 20px;
+	padding-left: 10px;
+	font-weight: bold;
+}
+header div li a{
+	text-decoration: none;
+	color: #212C40;
+}
+header div li a:hover{
+	color: #fff;
+}
+header .menu{
+	right: 30px;
+	float: right;
+}
+
+.content{
+  padding-top: 100px;
+}
+.slide{
+	background-color: #001E6C;
+	color: #fff;
+	padding-top: 20px;
+	box-sizing: border-box;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-image: url('../images/robot8.png');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el div */
+    background-position: right; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+}
+.slide li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.slide li h2{
+	font-size: 74px;
+	color: #FECB00;
+	font-weight: bold;
+}
+.slide li p{
+	font-size: 34px;
+}
+.slide li ul{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: hsla(0, 0%, 0%, 0.2);
+}
+.slide li li{
+	display: inline;
+	font-size: 32px;
+	font-weight: bold;
+	padding-right: 15px;
+}
+.slide div{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.slide div h4{
+	padding-bottom: 20px;
+	width: 200px;
+	margin: 0 auto;
+	font-size: 40px;
+	font-weight: bold;
+	display: inline;
+	padding: 0px 10px 0px 10px;
+}
+.slide div a{
+	text-decoration: none;
+	color: #FECB00;
+}
+.slide div a:hover{
+	color: #79DB32;
+}
+.tipocompetencia{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en la línea siguiente si no hay suficiente espacio */
+    gap: 20px; /* Espacio entre los elementos */
+    padding: 20px;
+    box-sizing: border-box; /* Incluye el relleno en el tamaño total del elemento */
+}
+
+section{
+	margin-top: 200px;
+	padding-top: 20px;
+}
+section div .elemento{
+	position: relative;
+	left: 0px;
+	top: 0px;
+	
+	text-align: center;
+}
+section div .elemento img{
+ 	width: 100%;
+ 	margin: 0px;
+ 	padding: 0px;
+ 	border: 0px;
+}
+
+section div .elemento p.descrip{
+	width: 100%;
+	background-color: rgba(0,99,159,0.6);
+	position: absolute;
+	bottom: 20px;
+	color: #fff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 14px;
+}
+
+.bloque{
+	margin: 0 auto;
+  	width: 80%;
+  	padding-bottom: 30px;
+	padding-top: 100px;
+}
+h2{
+	font-size: 40px;
+	color: #00639F;
+	font-weight: bold;
+	text-align: left;
+}
+h3{
+	font-size: 25px;
+	color: #00639F;
+}
+.bloque1 div{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: rgba(0,99,159,0.1);
+}
+.bloque div p{
+	line-height: 28px;
+	color:#070803;
+}
+.bloque2{
+	background-color: #E8630A;
+	width: 100%;
+	padding-right: 10%;
+	padding-left: 10%;
+	box-sizing: border-box;
+	text-align: center;
+}
+.bloque2 h2{
+	color: #fff;
+}
+.bloque2 div{
+	padding-top: 20px;
+}
+.ponente{
+	clear: left;
+	display: inline-block;
+	width: 30%;
+	height: auto;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	box-sizing: border-box;
+	color: #fff;
+}
+.ponente h3{
+	font-weight: bold;
+	padding-top: 5px;
+}
+
+.bloque2 div img{
+	border-radius: 10%;
+	border: 5px solid #00639F;
+	width: 80%;
+	height: auto;
+
+}
+.bloque4{
+	background-color: #F4991A;
+	width: 100%;
+	padding-right: 10%;
+	padding-left: 10%;
+	box-sizing: border-box;
+}
+.bloque4 h2{
+	color: #fff;
+}
+.bloque4 ul{
+	text-align: center;	
+}
+.bloque4 li{
+	padding-left: 30px;
+	padding-right: 30px;
+	display: inline;
+}
+
+.ponente {
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	background-color: hsla(0, 0%, 100%, 0.7);
+	padding: 15px;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 10px 0;
+	color:#1E3050;
+}
+th, td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: left;
+}
+th {
+	background-color: #FECB00;
+	color: #333;
+	text-align: center;
+	font-weight: bold;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+.negrita{
+	font-weight: bold;
+}
+footer{
+	text-align: center;
+	color: #fff;
+	background-color: #070803;
+	width: 100%;
+	height: auto;
+
+}
+footer div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+footer div div li{
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px; /* Distancia desde el fondo de la página */
+    right: 20px;  /* Distancia desde el lado derecho de la página */
+    background-color: #25D366; /* Color de fondo del botón */
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra para el botón */
+    z-index: 1000; /* Asegúrate de que esté sobre otros elementos */
+}
+
+.whatsapp-button img {
+    width: 50px; /* Ajusta el tamaño del ícono */
+    height: auto; /* Mantén la proporción del ícono */
+    display: block;
+}
+
+.whatsapp-button:hover {
+    background-color: #1EBEA5; /* Color más oscuro al pasar el ratón */
+}
+@media(max-width: 1280px){
+	header div{
+		padding-top: 3px;
+	}
+}
+@media(max-width: 1024px){
+	body{
+		width: 100%;
+	}
+	header div ul{
+		padding-top: 3px;
+	}	
+	.tipocompetencia{
+		text-align: center;
+	}
+	.ponente {
+		padding: 0px;
+    }
+	.ponente table{
+		font-size: 12px;
+	}
+
+}
+@media(max-width: 768px){
+	.ponente {
+		padding: 10px;
+		width: 100%;
+    }
+	h1{
+		font-size: 26px;
+		padding-top: 5px;
+	}
+	header div li{
+		font-size: 14px;
+		padding-top: 0px;
+	}	
+}
+@media(max-width: 660px){
+	header{
+		text-align: center;
+		padding-right: 0px;
+		padding-left: 0px;
+		height: 110px;
+	}
+	header div img{
+		width: 60%;
+		height: auto;
+	}
+}
+@media(max-width: 485px){
+	body{
+		width: 100%;
+	}
+	header{
+		text-align: center;
+		padding-right: 0px;
+		padding-left: 0px;
+		height: 110px;
+	}
+	header div img{
+		width: 60%;
+		height: auto;
+	}
+	header div{
+		padding-top: 3px;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	header div ul{
+		padding-top: 3px;
+		
+	}
+	header div li{
+		font-size: 11px;
+		padding-top: 0px;
+	}	
+    section {
+        flex-direction: column; /* Coloca los elementos en una columna en lugar de una fila en pantallas pequeñas */
+        gap: 10px; /* Espacio entre los elementos en pantallas pequeñas */
+    }
+	h1{
+		font-size: 22px;
+		padding-top: 5px;
+	}
+	.slide{
+		text-align: center;
+		padding-top: 50px;
+		background-image: none;
+	}
+	.slide li{
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.slide li h2{
+		font-size: 24px;
+	}
+	.slide li p{
+		font-size: 14px;
+	}
+	.slide li li{
+		display: inline;
+		font-size: 16px;
+		font-weight: bold;
+		padding-right: 7px;
+	}
+	.slide div a{
+		font-size: 14px;
+	}
+	/* Estilos para pantallas más pequeñas */
+	.ponente {
+		padding: 10px;
+		width: 100%;
+	}
+	table {
+		display: block;
+		width: 100%;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+		border: 0;
+	}
+
+}
+
+
+.popup {
+    display: none; /* Ocultar el popup por defecto */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    bottom: 0; /* Alinear el popup en la parte baja */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+}
+
+.popup-content {
+    margin: 0 auto; /* Centrar el contenido */
+    padding: 20px;
+    background-color: white;
+    width: 300px;
+    border-radius: 8px;
+    text-align: left; /* Alinear el texto a la izquierda */
+    position: relative; /* Para posicionar el botón de cierre */
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
