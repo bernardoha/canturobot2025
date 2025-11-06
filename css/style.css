@@ -452,6 +452,14 @@ footer div div li{
     text-align: left; /* Alinear el texto a la izquierda */
     position: relative; /* Para posicionar el botón de cierre */
 }
+.popup-content,p {
+  font-size: 22px;
+  color: #eb520b;
+}
+.popup-content,strong {
+  font-weight: bold;
+  color: #209912;
+}
 
 .close {
     position: absolute;
